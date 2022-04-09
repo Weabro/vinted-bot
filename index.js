@@ -165,7 +165,7 @@ client.on('ready', () => {
     setInterval(sync, 15000);
 
     const { version } = require('./package.json');
-    client.user.setActivity(`Vinted BOT | v${version}`);
+    client.user.setActivity(`𝘽𝙖𝙡𝙖𝙣𝙘𝙚𝙏𝙖𝙈𝙖𝙧𝙦𝙪𝙚`);
 });
 
 client.on('interactionCreate', (interaction) => {
